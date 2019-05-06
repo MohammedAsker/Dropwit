@@ -188,6 +188,10 @@ p {
 	height: 300px;
 }
 
+.cofounder {
+	display: inline-block;
+}
+
 /* Services */
 ul#services li{
 	list-style: none;
@@ -246,7 +250,6 @@ ul#services h3 {
 	margin-bottom: 20px;
 }
 
-
 /*
 h4 {
 	font-size: 20px;
@@ -285,6 +288,29 @@ footer{
 	background-color: #000000;
 	text-align: center;
 }
+
+/* Social media */
+footer{
+	text-align: center;
+}
+
+footer li{
+	display: inline-block;
+	list-style-type: none;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+}
+
+footer li a{
+	border-bottom: none;
+}
+
+footer li img{
+	width: 70px;
+	height: 70px;
+	margin-right: 20px;
+}
+
 
 /* Mobile Responsive*/
 @media(max-width: 768px){
