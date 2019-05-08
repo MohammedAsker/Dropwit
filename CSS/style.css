@@ -289,11 +289,34 @@ footer{
 	text-align: center;
 }
 
-/* Social media */
-footer{
-	text-align: center;
+.copy p{
+	color: grey;
 }
 
+.copy a{
+	color: white;
+	text-decoration: none;
+}
+
+.copy .menu ul {
+	display: grid;
+	grid-template-columns: 1fr;
+	list-style-type: none;
+	text-align: left;
+
+}
+
+.copy .menu2 ul {
+	display: grid;
+	grid-template-columns: 1fr;
+	list-style-type: none;
+	text-align: left;
+}
+
+.copy .menu li{
+}
+
+/* Social media */
 footer li{
 	display: inline-block;
 	list-style-type: none;
