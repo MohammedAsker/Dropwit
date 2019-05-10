@@ -163,24 +163,11 @@ header a:hover{
 .cofounder{
 	margin-top: 20px;
 }
-/*
-h1 {
-	font-size: 24px;
-}
-
-h3 {
-	font-size: 24px;
-}
-
-p {
-	font-size: 20px;
-}*/
 
 .cofounder{
 	float: left;
 	text-align: left;
 	width: 30%;
-
 
 }
 .cofounder img{
@@ -191,6 +178,7 @@ p {
 .cofounder {
 	display: inline-block;
 }
+
 
 /* Services */
 ul#services li{
@@ -280,44 +268,43 @@ h4 {
 	margin-bottom: 10px;
 }
 
-/* footer */
-footer{
-	padding: 20px;
-	margin-top: 20px;
-	color: #ffffff;
-	background-color: #000000;
-	text-align: center;
+/* Menu Bottom*/
+#downmenu .menu{
+	background-color: grey;
 }
 
-.copy p{
-	color: grey;
+
+#downmenu .menu h1{
+	
 }
 
-.copy a{
-	color: white;
-	text-decoration: none;
+#downmenu .menu p{
+	
 }
 
-.copy .menu ul {
-	display: grid;
-	grid-template-columns: 1fr;
-	list-style-type: none;
-	text-align: left;
+#downmenu .menu ul{
+	width: 100%;
+	list-style: none;
+	font-weight: solid;
+}
+
+#downmenu .menu ul li{
+	float: left;
+	width: 150px;
 
 }
 
-.copy .menu2 ul {
-	display: grid;
-	grid-template-columns: 1fr;
-	list-style-type: none;
-	text-align: left;
+#downmenu .menu ul li ul{
+	padding: 0;
 }
 
-.copy .menu li{
+#downmenu .menu ul li ul li{
+	float: none;
+	padding: 5px 0; 
 }
 
 /* Social media */
-footer li{
+/*footer li{
 	display: inline-block;
 	list-style-type: none;
 	-webkit-user-select:none;
@@ -332,7 +319,9 @@ footer li img{
 	width: 70px;
 	height: 70px;
 	margin-right: 20px;
-}
+}*/
+
+/* footer */
 
 
 /* Mobile Responsive*/
