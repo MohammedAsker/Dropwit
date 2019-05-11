@@ -270,28 +270,24 @@ h4 {
 
 /* Menu Bottom*/
 #downmenu .menu{
-	background-color: grey;
-}
+	background-color: black;
+	color: white;
 
-
-#downmenu .menu h1{
-	
 }
 
 #downmenu .menu p{
-	
+	color: grey;
 }
 
 #downmenu .menu ul{
 	width: 100%;
 	list-style: none;
-	font-weight: solid;
+
 }
 
 #downmenu .menu ul li{
 	float: left;
 	width: 150px;
-
 }
 
 #downmenu .menu ul li ul{
@@ -300,8 +296,19 @@ h4 {
 
 #downmenu .menu ul li ul li{
 	float: none;
-	padding: 5px 0; 
+	padding: 5px 0;
 }
+
+#downmenu .menu a{
+	text-decoration: none;
+	color: grey;
+}
+
+#downmenu .menu a:hover{
+	color: white;
+	transition: 0.7s;
+}
+
 
 /* Social media */
 /*footer li{
