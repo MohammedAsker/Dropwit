@@ -3,6 +3,7 @@ body {
 	padding: 0;
 	margin: 0;
 	background-color: #f4f4f4;
+	overflow-x: hidden; 
 }
 
 /* Global */
@@ -227,6 +228,11 @@ ul#services h3 {
 	margin-right: 10px;
 }
 
+#services .button_2:hover {
+	opacity: 0.5;
+	transition: 0.7s;
+}
+
 #services .button_3 {
 	height: 38px;
 	background: white;
@@ -238,10 +244,12 @@ ul#services h3 {
 	margin-bottom: 20px;
 }
 
-/*
-h4 {
-	font-size: 20px;
-}*/
+#services .button_3:hover {
+	background-color: red;
+	color: white;
+	opacity: 0.8;
+	transition: 0.7s;
+}
 
 /* Contact */
 .button_1{
@@ -268,68 +276,52 @@ h4 {
 	margin-bottom: 10px;
 }
 
-/* Menu Bottom*/
-#downmenu .menu{
+/* footer */
+footer{
 	background-color: black;
 	color: white;
-
+	margin-bottom: auto 0px;
+}
+footer h1{
+	padding-top: 50px;
 }
 
-#downmenu .menu p{
+footer p{
 	color: grey;
 }
 
-#downmenu .menu ul{
+footer ul{
 	width: 100%;
 	list-style: none;
-
 }
 
-#downmenu .menu ul li{
+footer ul li{
 	float: left;
 	width: 150px;
 }
 
-#downmenu .menu ul li ul{
+footer ul li ul{
 	padding: 0;
 }
 
-#downmenu .menu ul li ul li{
+footer ul li ul li{
 	float: none;
 	padding: 5px 0;
 }
 
-#downmenu .menu a{
+footer a{
 	text-decoration: none;
 	color: grey;
 }
 
-#downmenu .menu a:hover{
+footer a:hover{
 	color: white;
 	transition: 0.7s;
 }
 
-
-/* Social media */
-/*footer li{
-	display: inline-block;
-	list-style-type: none;
-	-webkit-user-select:none;
-	-moz-user-select:none;
+footer .copy{
+	text-align: center;
 }
-
-footer li a{
-	border-bottom: none;
-}
-
-footer li img{
-	width: 70px;
-	height: 70px;
-	margin-right: 20px;
-}*/
-
-/* footer */
-
 
 /* Mobile Responsive*/
 @media(max-width: 768px){
