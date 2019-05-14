@@ -162,6 +162,30 @@ header a:hover{
 }
 
 /*About us page*/
+#showcase3{
+	min-height: 600px;
+	background:url('../images/team3.jpeg')no-repeat 0 -400px;
+	color: #ffffff;
+	text-align: center;
+	color: #ffffff;
+}
+
+#showcase3 {
+	background: linear-gradient( rgba(0,0,0,0.2), rgba(0,0,0,0.8)), url('../images/team3.jpeg')no-repeat;
+    background-max-width: 100%;
+    background-height: auto;
+}
+
+#showcase3 h1{
+	text-align: center;
+	margin-top: 300px;
+	font-size: 55px;
+}
+
+#showcase3 p{
+	font-size: 20px;
+}
+
 .cofounder{
 	margin-top: 20px;
 }
@@ -317,6 +341,15 @@ ul#services h3 {
 }
 
 /* Career page*/
+#jobs .container img{
+	width: 100%;
+	max-width: 700px;
+	height: auto;
+	margin-top: 50px;
+
+}
+
+
 /* News & Media page*/
 
 /* footer */
@@ -333,7 +366,7 @@ footer p{
 }
 
 footer ul{
-	/*width: 100%; <-- will arrange menu lists orderly, but undo overflow:hidden*/ 
+	/*width: 100%; <-- will organize menu lists orderly, but undo overflow:hidden*/ 
 	list-style: none;
 }
 
