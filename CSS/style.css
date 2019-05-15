@@ -68,6 +68,14 @@ header a:hover{
 	font-weight: bold;
 	transition: 0.7s;
 }
+
+header h1 .homepage{
+	color: white;
+	font-weight: bold;
+	text-transform: none;
+	font-size: 30px;
+
+}
 /* Home page*/
 /* Showcase */
 #showcase{
@@ -285,7 +293,7 @@ ul#services h3 {
 	padding-right: 20px;
 	color: #ffffff;
 	width: 263px;
-	margin-bottom: 20px;
+	margin-bottom: 50px;
 }
 
 .contacts input{
@@ -347,12 +355,23 @@ ul#services h3 {
 	height: auto;
 	margin-top: 50px;
 
+} #jobs .container .benefits{
+	margin-bottom: 50px;
 }
 
 
+
+
 /* News & Media page*/
+.news{
+	margin-bottom: 50px;
+}
 
 /* footer */
+footer .homepage{
+	color: white;
+}
+
 footer {
 	background-color: black;
 	color: white;
@@ -366,7 +385,7 @@ footer p{
 }
 
 footer ul{
-	/*width: 100%; <-- will organize menu lists orderly, but undo overflow:hidden*/ 
+	width: 100%; 
 	list-style: none;
 }
 
@@ -405,7 +424,8 @@ footer .copy{
 	#success .show,
 	#news .title,
 	#services .button_2,
-	#services .button_3{
+	#services .button_3,
+	#couriers .work{
 		float: none;
 		text-align: center;
 		width: 100%;
