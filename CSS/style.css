@@ -66,7 +66,32 @@ span .psw {
 }
 
 /* sign up */
+.signupbtn{
+	background-color: red;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+}
 
+.signupbtn:hover{
+	opacity: 0.8;
+	transition: 0.7s;
+}
+
+.signup h1{
+	text-align: center;
+}
+
+.signup h2{
+	text-align: center;
+}
+
+.signup p{
+	text-align: center;
+}
 /* Header */
 header{
 	background: #000000;
@@ -112,10 +137,11 @@ header ul .button_4 {
 	background: transparent;
 	color: white;
 	border: 1px solid white;
-	width: 100px;
 	border-radius: 50px;
 	margin-right: 20px;
 	cursor: pointer;
+	font-size: 12px;
+	width: 80px;
 }
 
 header ul .button_4:hover {
@@ -132,6 +158,9 @@ header ul .button_5 {
 	width: 100px;
 	border-radius: 50px;
 	cursor: pointer;
+	font-size: 12px;
+	width: 80px;
+	/*width100px*/
 }
 
 header ul .button_5:hover {
@@ -499,7 +528,7 @@ footer .copy{
 	#news .title,
 	#services .button_2,
 	#services .button_3,
-	#couriers .work
+	#couriers .work,
 	{
 		float: none;
 		text-align: center;
