@@ -529,7 +529,7 @@ footer .copy{
 }
 
 /* Mobile Responsive 768*/
-@media(max-width: 750px){
+@media (max-width: 768px){
 	#boxes .box,
 	#success .show,
 	#news .title,
@@ -545,4 +545,5 @@ footer .copy{
 	#showcase h1{
 		margin-top: 40px;
 	}
+
 }
