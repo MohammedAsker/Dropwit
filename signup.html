@@ -11,22 +11,23 @@
 	<title>Sign up | Dropwit</title>
 </head>
 
-<form action="action_page.php" style="border: 1px solid #ccc">
+<form name="myform" style="border: 1px solid #ccc">
 	<div class="container">
 		<div class="signup">
 		<h1>Dropwit</h1>
-		<p>Pleae fill in this form to create an account.</p>
 		</div>
-		<hr>
 
 		<label for="email"><b>Email</b></label>
 		<input type="text" placeholder="Enter Email" name="email" required>
 
-		<label for="psw"><b>Password</b></label>
-		<input type="password" placeholder="Repeat Password" name="psw" required>
+		<label><b>Password</b>
+		<input type="password" placeholder="Enter Password" name="password" id="password" onkeyup='check();' required>
+		</label>
 
-		<label for="psw-repeat"><b>Repeat Password</b></label>
-		<input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+		<label><b>Confirm Password</b>
+		<input type="password" placeholder="Repeat Password" name="confirm_password" id="confirm_password" onkeyup='check();' required>
+		<span id='message'></span>
+		</label>
 
 		<label>
 			<input type="checkbox" checked="checked" name="remember" style="margin-bottom: 15px">Remember me
@@ -42,7 +43,18 @@
 	</div>
 </form>
 
-
+<script>
+	 var check = function() {
+      if (document.getElementById('password').value ==
+          document.getElementById('confirm_password').value) {
+          document.getElementById('message').style.color = 'green';
+          document.getElementById('message').innerHTML = 'matching';
+      } else {
+      		document.getElementById('message').style.color = 'red';
+          document.getElementById('message').innerHTML = 'not matching';
+      }
+  }
+</script>
 
 </body>
 </html>
