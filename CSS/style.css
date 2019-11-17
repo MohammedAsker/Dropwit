@@ -354,10 +354,6 @@ ul#services h3 {
 	display: block;
 }
 
-#services ul li{
-	text-decoration: 
-}
-
 #services .button_2 {
 	height: 38px;
 	background: red;
@@ -409,12 +405,13 @@ ul#services h3 {
 	color: #ffffff;
 	width: 263px;
 	margin-bottom: 50px;
+	opacity: 1;
+	transition: 0.7s;
 	cursor: pointer;
 }
 
 .button_1:hover {
 	opacity: 0.5;
-	transition: 0.7s;
 }
 
 .contacts input{
@@ -428,6 +425,7 @@ ul#services h3 {
 	height: 100px;
 	width: 257px;
 	margin-bottom: 10px;
+	resize: none;
 }
 
 /* Become a courier page*/
@@ -529,11 +527,11 @@ footer ul li ul li{
 footer a{
 	text-decoration: none;
 	color: grey;
+	transition: 0.7s;
 }
 
 footer a:hover{
 	color: white;
-	transition: 0.7s;
 }
 
 footer .copy{
