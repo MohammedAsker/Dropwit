@@ -286,8 +286,8 @@ header ul .button_5:hover {
 
 #showcase3 {
 	background: linear-gradient( rgba(0,0,0,0.2), rgba(0,0,0,0.8)), url('../images/team3.jpeg')no-repeat;
-    background-max-width: 100%;
-    background-height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 #showcase3 h1{
