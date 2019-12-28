@@ -4,13 +4,13 @@
 
 My first coding project.
 
-Dropwit is a fictional startup company and the design are inspiried by Postmates and Quiqup. I created this project to put my knowledge of HTML, CSS, and Web Responsive into a practial use. As I continue to improve my skills, I'll make the project better and better.
+Dropwit is a fictional logistic startup company and the design are inspired by Postmates and Quiqup websites. I created this project to put my knowledge of HTML, CSS, and Web Responsive into a practical use.
 
 ## Live Demo
 
 You can check the project by the clicking the link below:
 
-[Dropwit]("https://mohammedasker.github.io/Dropwit/").
+[Dropwit](https://mohammedasker.github.io/Dropwit/)
 
 ## Getting Started
 
